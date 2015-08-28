@@ -1,0 +1,120 @@
+
+/* general */
+h2{
+	margin-top: 0;
+}
+
+/*
+:target:before{
+	content:"";
+	display:block;
+	height: 55px;
+	margin: -55px 0 0;
+}
+*/
+/*
+#main-content{
+	position: absolute;
+	top: 55px;
+}*/
+
+/* section-topbar */
+#section-topbar{
+	background: #111;
+}
+
+.navbar-black {
+	background: #111;
+	margin-bottom: 0;
+}
+
+
+.navbar-black .navbar-nav>li>a{
+	font-size: 20px;
+}
+
+.navbar .navbar-nav{	
+	display: inline-block;
+	float: none;
+}
+
+.navbar{
+	text-align: center;
+}
+
+/* section-bigtitle */
+
+#section-bigtitle .container-fluid{
+	padding: 0;
+}
+
+/* section-about */
+#section-about{
+	color: white;
+	padding:40px 0;
+	background: #323232;
+}
+
+.about-content>p{
+	color: #FFFFFF;
+}
+
+/* section-education */
+#section-education{
+	padding: 40px 0;
+}
+
+#section-education p{
+	margin-bottom: 0;
+}
+
+#section-education .item{
+	margin-bottom: 30px; 
+}
+
+.font-red{
+	color: red;
+}
+
+/* section-skills */
+.progress-bar-label{
+	text-align: left;
+	padding-left: 10px;
+}
+
+.progress-bar-blue{
+	background: #4B749F;
+}
+
+.progress-bar-deepblue{
+	background: #5D57AA;
+}
+
+.progress-bar-green{
+	background: #46A385;
+}
+
+.progress-bar-lightred{
+	background: #F07384;
+}
+
+.progress-bar-orange{
+	background: #FDAC78;
+}
+
+.progress-bar-purple{
+	background: #BF5BA1;
+}
+
+/* section-copyright */
+#section-copyright{
+	background: #000;
+}
+#section-copyright p{
+	margin-top: 26px;
+	color: #FFFFFF;
+}
+
+#section-copyright .navbar{
+	margin-bottom: 0;
+}
