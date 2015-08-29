@@ -4,6 +4,7 @@ h2{
 	margin-top: 0;
 }
 
+/* try to fix the bug of anchor position*/
 /*
 :target:before{
 	content:"";
@@ -12,11 +13,11 @@ h2{
 	margin: -55px 0 0;
 }
 */
-/*
+
 #main-content{
 	position: absolute;
-	top: 55px;
-}*/
+	top: 550px;
+}
 
 /* section-topbar */
 #section-topbar{
@@ -44,9 +45,33 @@ h2{
 
 /* section-bigtitle */
 
-#section-bigtitle .container-fluid{
-	padding: 0;
+#section-bigtitle{
+	background: url("img/DSCN9293.JPG");
+	height: 550px; 
+	width: 100%;
+	z-index: -1;
+	position: fixed;
 }
+
+
+#section-bigtitle .container{
+	padding: 0;
+	height: inherit;
+}
+
+#section-bigtitle .row{
+	height: inherit;
+	display: flex;
+	align-items: center;	
+}
+
+#section-bigtitle h1, #section-bigtitle h2{
+	vertical-align: middle;
+	text-align: center;
+	color: #FFFFFF;
+
+}
+
 
 /* section-about */
 #section-about{
@@ -62,6 +87,7 @@ h2{
 /* section-education */
 #section-education{
 	padding: 40px 0;
+	background: #FFFFFF;
 }
 
 #section-education p{
@@ -77,6 +103,9 @@ h2{
 }
 
 /* section-skills */
+#section-skills{
+	background: #FFFFFF;
+}
 .progress-bar-label{
 	text-align: left;
 	padding-left: 10px;
@@ -108,7 +137,7 @@ h2{
 
 /* section-copyright */
 #section-copyright{
-	background: #000;
+	background: #000000;
 }
 #section-copyright p{
 	margin-top: 26px;
